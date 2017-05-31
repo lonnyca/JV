@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Chapter 4, Exercise 2</title>
+	</head>
+	<body>
+		<script>
+			var timesTable = parseInt(prompt("Enter a times table", 2), 10);
+			
+			if (isNaN(timesTable) == true) {
+			document.write("Numbers only, please!");
+			}
+			
+			else if(timesTable > 0) {
+			
+				for(var i = 1; i <=12; i++) {
+					document.write(timesTable + " * " + i + " = " + timesTable * i+ "<br>");
+					}
+				}
+				
+				else if(timesTable <= 0) {
+			document.write("Oops! Try a number between 1 and 10.");
+			}
+			
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		</script>
+	</body>
+</html>
